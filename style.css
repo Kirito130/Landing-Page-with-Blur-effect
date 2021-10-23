@@ -20,13 +20,13 @@ body {
 }
 
 .showcase:hover::after {
-   filter: blur(0px);
-   -webkit-filter: blur(0px);
+   filter: blur(2px);
+   -webkit-filter: blur(2px);
 }
 
 .showcase:hover .content{
-   filter: blur(2    px);
-   -webkit-filter: blur(2px);
+   filter: blur(0px);
+   -webkit-filter: blur(0px);
 }
 
 .content {
